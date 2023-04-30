@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UmsUs4AOeIzWwNkXFCT08qQNFkHB1HRyit/TQwo/wRI=",
+  "Hash": "xf2eKYQ/LTOLSmY9HuYxEURpq5gkPxkAzdyNCbobLWk=",
   "Source": "EntityFramework-Slider",
   "BasePath": "_content/EntityFramework-Slider",
   "Mode": "Default",
@@ -9962,6 +9962,23 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css.map"
     },
     {
+      "Identity": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\03b9a608-ba31-4ee9-bdea-0414875efd35shop-14-img.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/03b9a608-ba31-4ee9-bdea-0414875efd35shop-14-img.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\03b9a608-ba31-4ee9-bdea-0414875efd35shop-14-img.jpg"
+    },
+    {
       "Identity": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\06af97dd-1e52-43cb-b2f6-a63299f8fb80_course_5.jpg",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
@@ -10370,6 +10387,23 @@
       "OriginalItemSpec": "wwwroot\\img\\710ed119-d778-46ce-9d65-f75656260e2d_shop-category-img-4.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\7170877e-9e0a-42dc-b037-2f938f61fcfbshop-14-img.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/7170877e-9e0a-42dc-b037-2f938f61fcfbshop-14-img.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\7170877e-9e0a-42dc-b037-2f938f61fcfbshop-14-img.jpg"
+    },
+    {
       "Identity": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\72ff4fa2-b81c-4530-90b7-d153beb360f7_teacher_6.jpg",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
@@ -10693,6 +10727,23 @@
       "OriginalItemSpec": "wwwroot\\img\\b16b53e8-44f0-440d-97b1-cc0bb0179571_shop-7-img.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\b55aa01d-aa59-4d01-add3-2a78b1430b58shop-14-img.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/b55aa01d-aa59-4d01-add3-2a78b1430b58shop-14-img.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\b55aa01d-aa59-4d01-add3-2a78b1430b58shop-14-img.jpg"
+    },
+    {
       "Identity": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\b62769cd-c333-4524-8075-9c1ea2045fc6_banner5.jpg",
       "SourceId": "EntityFramework-Slider",
       "SourceType": "Discovered",
@@ -10759,6 +10810,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\c1763dcd-2cd9-44d9-9873-55724c2d5860_shop-11-img.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\c2e4fdd2-1da5-403c-b39a-7fac0018bff2shop-10-img.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/c2e4fdd2-1da5-403c-b39a-7fac0018bff2shop-10-img.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\c2e4fdd2-1da5-403c-b39a-7fac0018bff2shop-10-img.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\c38fa0d6-cf46-44b3-be38-c617f5580473shop-11-img.jpg",
+      "SourceId": "EntityFramework-Slider",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\",
+      "BasePath": "_content/EntityFramework-Slider",
+      "RelativePath": "img/c38fa0d6-cf46-44b3-be38-c617f5580473shop-11-img.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\c38fa0d6-cf46-44b3-be38-c617f5580473shop-11-img.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\OneDrive\\Masaüstü\\a4\\ViewComponents-Category-crud\\EntityFramework-Slider\\EntityFramework-Slider\\wwwroot\\img\\cfbeb0c0-35a5-4e0c-bb1b-56d5b446656b_shop-10-img.jpg",

@@ -201,6 +201,8 @@ namespace EntityFramework_Slider.Areas.Admin.Controllers
 
         }
 
+
+
         [HttpGet]
         public async Task<IActionResult> Detail(int? id)
         {
@@ -213,5 +215,105 @@ namespace EntityFramework_Slider.Areas.Admin.Controllers
 
             return View(product);
         }
+
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if(id == null) return BadRequest();
+
+            Product product = await _productService.GetFullDataById((int)id);
+
+            if (product == null) return NotFound();
+
+            ViewBag.desc = Regex.Replace(product.Description, "<.*?>", String.Empty);
+            ViewBag.category = await GetCategoriesAsync();
+
+            ProductEditVM model = new ProductEditVM()
+            {
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                CategoryID = product.CategoryId,
+                productImages = product.Images,
+            };
+            
+            return View(model);
+
+            
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int? id,ProductEditVM model)
+        {
+            if(id == null) return BadRequest();
+
+            Product dbProduct = await _productService.GetFullDataById((int)id);
+            if (dbProduct == null) return NotFound();
+
+            List<ProductImage> productImage = new();
+
+            foreach (var item in dbProduct.Images)
+            {
+                ProductImage image = new()
+                {
+                    Image = item.Image,
+                };
+
+                productImage.Add(image);
+            }
+
+            ProductEditVM productEdit = new()
+            {
+                Name = dbProduct.Name,
+                Description = dbProduct.Description,
+                Price = dbProduct.Price,
+                CategoryID = dbProduct.CategoryId,
+                productImages = dbProduct.Images,
+            };
+
+            ViewBag.desc = Regex.Replace(productEdit.Description, "<.*?>", String.Empty);
+            ViewBag.category = await GetCategoriesAsync();
+
+            if (model.Photos is not null)
+            {
+               
+           
+
+                foreach (var photo in model.Photos)
+                {
+                    ProductImage productImg = new()
+                    {
+                        Image = photo.CreateFile(_env, "img")
+                    };
+
+                    dbProduct.Images.Add(productImg);
+                }
+                dbProduct.Images.FirstOrDefault().IsMain = true;
+            }
+            else
+            {
+                foreach (var item in dbProduct.Images)
+                {
+                    ProductImage newProductImage = new()
+                    {
+                        Image = item.Image
+                    };
+                }
+            }
+
+            dbProduct.Name = model.Name;
+            dbProduct.Description = model.Description;
+            dbProduct.Price = model.Price;
+            dbProduct.CategoryId = model.CategoryID;
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
+
     }
+    
 }
